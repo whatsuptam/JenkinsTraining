@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 27.166 sec <<< FAILURE! - in TestSuite
+method(my.samples.searchGoogleTest)  Time elapsed: 7.854 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sapc034', ip: '172.16.3.180', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+Session ID: ff50255e0479c128357c4e80259219ec
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\SHEPPA~1\AppData\Local\Temp\scoped_dir14956_14535, chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=51.0.2704.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.NullPointerException: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+
+method(my.samples.searchGoogleTest)  Time elapsed: 6.459 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sapc034', ip: '172.16.3.180', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 1d1789f93dabfabd2d375b10fafcf3bb
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\SHEPPA~1\AppData\Local\Temp\scoped_dir11628_27433, chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=51.0.2704.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.NullPointerException: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+
+method(my.samples.searchGoogleTest)  Time elapsed: 5.92 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sapc034', ip: '172.16.3.180', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 1917e0f22291b1d6b081878e849929dd
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\SHEPPA~1\AppData\Local\Temp\scoped_dir2000_2277, chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=51.0.2704.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.NullPointerException: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+
+method(my.samples.searchGoogleTest)  Time elapsed: 6.209 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sapc034', ip: '172.16.3.180', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+Session ID: b9ca6d354e04f5dd27b134bbf4f2c174
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\SHEPPA~1\AppData\Local\Temp\scoped_dir8852_25564, chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=51.0.2704.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+Caused by: java.lang.NullPointerException: Unable to find executable for: taskkill
+	at my.samples.searchGoogleTest.method(searchGoogleTest.java:54)
+

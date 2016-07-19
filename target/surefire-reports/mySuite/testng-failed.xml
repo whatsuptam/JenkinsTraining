@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [mySuite]">
+  <test name="myTests(failed)">
+    <classes>
+      <class name="my.samples.searchGoogleTest">
+        <methods>
+          <include name="method" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- my.samples.searchGoogleTest -->
+    </classes>
+  </test> <!-- myTests(failed) -->
+</suite> <!-- Failed suite [mySuite] -->
